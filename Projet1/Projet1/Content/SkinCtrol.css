@@ -1,0 +1,28 @@
+﻿
+.liCellSkinCtrol {
+    float:left; 
+    width: 33.33333%; 
+    padding: 5px;
+}
+
+.aCellSkinCtrol {
+    display: block; 
+    /*box-shadow: 0 0 3px rgba(0,0,0,0.4)*/
+
+}
+
+
+.skin-blue .Titre, 
+.skin-black .Titre, 
+.skin-purple .Titre, 
+.skin-green .Titre, 
+.skin-red .Titre, 
+.skin-yellow .Titre  {
+    color:#fff;
+}
+
+.Titre {
+    float:left; 
+    width: 100%; 
+    padding: 5px;
+}
