@@ -1,28 +1,102 @@
 ﻿
-.liCellSkinCtrol {
+.CellSkinCtrol {
     float:left; 
     width: 33.33333%; 
     padding: 5px;
 }
 
-.aCellSkinCtrol {
+.CellSkinCtrol {
     display: block; 
-    /*box-shadow: 0 0 3px rgba(0,0,0,0.4)*/
-
+    /*box-shadow: 0 0 3px rgba(0,0,0,0.4);*/
+    padding:2px;
 }
 
 
-.skin-blue .Titre, 
-.skin-black .Titre, 
-.skin-purple .Titre, 
-.skin-green .Titre, 
-.skin-red .Titre, 
-.skin-yellow .Titre  {
+.skin-blue .titreMenu, 
+.skin-black .titreMenu, 
+.skin-purple .titreMenu, 
+.skin-green .titreMenu, 
+.skin-red .titreMenu, 
+.skin-yellow .titreMenu  {
     color:#fff;
 }
 
-.Titre {
+.titreMenu {
     float:left; 
     width: 100%; 
     padding: 5px;
 }
+
+
+.rectLeftBottom, .rectLeftTop, .rectRightBottom, .rectRightTop {
+    display:block;
+    float: left;
+
+}
+
+
+.rectLeftTop {
+    border-top: solid 1px black ;
+    border-left: solid 1px black ;
+    width: 20%; 
+    height: 7px;
+}
+
+.rectRightTop {
+    border-top: solid 1px black ;
+    border-right: solid 1px black ;
+    border-left: solid 0.25px gray;
+    width: 80%; 
+    height: 7px;
+}
+
+.rectLeftBottom {
+    border-bottom: solid 1px black ;
+    border-left: solid 1px black ;
+    border-top: solid 0.25px gray;
+    width: 20%; 
+    height: 20px;
+}
+
+.rectRightBottom {
+    border-bottom: solid 1px black ;
+    border-right: solid 1px black ;
+    border-top: solid 0.25px gray;
+    border-left: solid 0.25px gray;
+    width: 80%; 
+    height: 20px;
+}
+
+.bg-blanc {
+    background-color:white;
+}
+.bg-noir {
+    background-color:black;
+}
+
+.skin-blue .box, .skin-blue-light .box{
+  border-top-color : #367fa9;
+}
+
+.skin-blue .box {
+  box-shadow: 3px 3px 3px rgba(3,3,3,0.4);
+}
+
+.skin-blue .box-header, .skin-blue-light  .box-header {
+  background-color:#3c8dbc;
+  color:white;
+}
+
+
+.skin-blue .btn-success, .skin-blue-light .btn-success {
+  border-color:#3c8dbc;
+  background-color:#367fa9;
+  color:white;
+}
+
+
+
+
+
+
+
